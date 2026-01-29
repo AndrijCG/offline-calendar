@@ -1,0 +1,72 @@
+body {
+    background-color: #27374D;
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    color: #27374D;
+    font-size: 35px;
+}
+.year-months-picker {
+    background-color: #9DB2BF;
+    box-shadow: 0 0 20px 1px #1a2333;
+    height: auto;
+    width: 710px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px auto 30px;
+}
+.year-picker {
+    padding-top: 20px;
+}
+.months-picker {
+    padding: 20px;
+}
+.month-grid {
+    background-color: #9DB2BF;
+    box-shadow: 0 0 20px 1px #1a2333;
+    height: auto;
+    width: 650px;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 30px auto 30px;
+    padding: 0px 30px 30px;
+}
+.week-days {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 60px;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+.dates {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px;
+    justify-content: center;
+    gap: 15px;
+}
+.cell {
+    background-color: #8fa4b3;
+    height: 80px;
+    width: 80px;
+    border-radius: 30px;
+}
+.active {
+    background-color: #DDE6ED;
+    box-shadow: 0 0 10px 1px #526D82;
+    height: 80px;
+    width: 80px;
+    border-radius: 30px;
+}
+.active:hover {
+    transform: scale(1.1);
+}
+.active:active {
+    transform: scale(1.17);
+    background-color: #f7fcff;
+}
